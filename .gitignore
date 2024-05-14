@@ -1,0 +1,5 @@
+.idx/
+node_modules/
+
+firebase-debug.log
+package-lock.json
