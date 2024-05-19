@@ -1,8 +1,25 @@
 {
   "compilerOptions": {
-    "target": "es5",
-    "module": "commonjs",
+    "module": "ESNext",                                  /* Specify what module code is generated. */
+    "target": "ESNext",
     "sourceMap": true,
-    "outDir": "dist"
+    "outDir": "dist",
+    "lib": ["esnext", "ES2022","dom" ], 
+    "moduleResolution": "node",
+    "strict": true,
+    "esModuleInterop": true,
+    "types": ["node", "express"],
+
+
+    // "forceConsistentCasingInFileNames": false,
+    // "noImplicitOverride": true,
+    // "noPropertyAccessFromIndexSignature": true,
+    // "noImplicitReturns": true,
+    // "noFallthroughCasesInSwitch": true,
+    // "skipLibCheck": true,
+    // "declaration": false,
+    // "experimentalDecorators": true,
+    // "importHelpers": true,
+    // "useDefineForClassFields": false,
   }
 }
