@@ -1,4 +1,4 @@
-import {client, server} from '@passwordless-id/webauthn'
+import {server} from '@passwordless-id/webauthn'
 
 
 const bootstrap = async () => {
